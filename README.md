@@ -1,6 +1,6 @@
 # Project: House Price Prediction and Neighborhood Analysis
 
-## Objective:
+## Objective
 The objective of this project is to predict house prices based on various features of houses. Additionally, we'll cluster neighborhoods using K-means or K-medoids to analyze similarities and differences, then employ linear regression models to predict house prices and perform feature selection to determine the most influential factors. Also, we will train Neural Network architectures to predict house prices.
 
 # Introduction 
