@@ -1,5 +1,8 @@
-# AI_PROJECT_
-AI Final project
+# Project: House Price Prediction and Neighborhood Analysis
+
+## Objective:
+The objective of this project is to predict house prices based on various features of houses. Additionally, we'll cluster neighborhoods using K-means or K-medoids to analyze similarities and differences, then employ linear regression models to predict house prices and perform feature selection to determine the most influential factors. Also, we will train Neural Network architectures to predict house prices.
+
 # Introduction 
 
 Below is the analysis project aimed at predicting house prices and clustering neighborhoods based on various features. This project leverages the Ames Housing Dataset, which provides a detailed range of property characteristics. The objective is to utilize advanced statistical techniques and machine learning models to predict house prices accurately while also clustering neighborhoods to discover patterns and similarities in their features.
@@ -83,7 +86,7 @@ The analysis yielded the following key findings, with features listed by their s
 ### Selection of Features
 Based on the correlation results, features were selected or discarded as follows:
 
-- **Selected Features**: Features with a correlation coefficient greater than 0.4 were chosen for the predictive model. These include 'Overall Qual', 'Gr Liv Area', 'Exter Qual', 'Bsmt Qual', 'Kitchen Qual', '1st Flr SF', 'Year Built', 'Garage Finish', and others up to 'Heating QC'. These features are expected to provide the most predictive power due to their strong relationships with the sale price.
+- **Selected Features**: Features with a correlation coefficient greater than 0.4 were chosen for the predictive model. These include 'Overall Qual', 'Gr Liv Area', 'Exter Qual', 'Bsmt Qual', 'Kitchen Qual', '1st Flr SF', 'Year Built', 'Garage Finish', etc as given below. These features are expected to provide the most predictive power due to their strong relationships with the sale price.
   
   ![Selected Features](selectedfeatures.png)
 
