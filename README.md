@@ -234,7 +234,7 @@ Incorporating multiple features into the regression model has several impacts:
 The Multiple Linear Regression model demonstrates significant improvements in predictive performance over the Simple Linear Regression model by effectively utilizing multiple key features. This model not only provides more accurate predictions but also offers deeper insights into the factors influencing house prices. The careful selection of features and the balanced approach to model complexity are pivotal in achieving an optimal model that is both accurate and generalizable.
 
 
-# 5. Neural Network:
+# 6. Neural Network:
 
 ### Overview of Neural Network Approaches for House Price Prediction
 
