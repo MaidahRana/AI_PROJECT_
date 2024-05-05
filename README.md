@@ -127,7 +127,7 @@ The model's performance was evaluated using two key metrics:
 ### Visualization
 The relationship between 'Overall Qual' and 'SalePrice' was visualized using a scatter plot, with the actual data points in blue and the regression line in red. A prediction was also demonstrated on the plot, showing the estimated price for a property with the highest quality rating (10), highlighted in green.
 
-![Simple Linear Regression](LinearRegression-1.png)
+![Simple Linear Regression](LinearRegression.png)
 
 ### Insights from Model Analysis
 - **Significance of Overall Quality**: The model confirms that 'Overall Qual' is a significant predictor of house prices, with a strong positive impact as quality increases.
