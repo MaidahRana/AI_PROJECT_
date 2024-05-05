@@ -175,6 +175,7 @@ A series of regression plots were generated to visually examine the relationship
   - The regression line was colored red to distinctly contrast with the blue scatter points, emphasizing the trend.
 - **Axes Labels**: Each plot was labeled with the corresponding feature name on the x-axis and 'House Price' on the y-axis, clarifying what each plot represents.
 
+![Multiple Linear Regression with Selected Features](mul_regression_feature-wise.png)
 #### Analysis from Visualization
 
 - **Trend Identification**: The regression lines provide a clear indication of the trends within the data. Features that exhibit a strong positive or negative slope on the regression line suggest a significant linear relationship with house prices. For instance, a steep upward slope in a feature like 'Living Area' would indicate that larger homes tend to have higher prices.
