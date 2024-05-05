@@ -51,7 +51,7 @@ After fitting the K-means model to the scaled data, each property was assigned a
 ### Visualization of Clusters
 For a more intuitive understanding of the clusters, a pairwise plot was generated using seaborn's pairplot function. This visualization helps in observing the distribution of properties across different clusters and understanding how similar or dissimilar they are in terms of the selected features. If geographical data were available, further visualizations on a map could enhance the understanding of spatial relationships and distribution of clusters.
 
-![Neigborhood CLustering](Neighborhood_Clustering-1.png)
+![Neigborhood CLustering](Neighborhood_Clustering.png)
 
 ### Insights Gained from Neighborhood Clustering
 The clustering process yielded several key insights into the neighborhood dynamics:
