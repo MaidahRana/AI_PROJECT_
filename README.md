@@ -156,7 +156,7 @@ Previously, the SLR model, which used a single predictor, provided a baseline fo
 #### Visual Representation
 A scatter plot of the actual vs. predicted house prices shows a strong correlation, with most predicted values clustering around the line of perfect prediction (diagonal line). This visual confirms the effectiveness of the MLR model, as the predictions closely align with the actual values, especially compared to an SLR model where the data spread might be broader.
 
-![Multiple Linear Regression](Multiple_Regression-1.png)
+![Multiple Linear Regression](Multiple_Regression.png)
 
 #### Impact of Adding More Features
 Incorporating multiple features into the regression model has several impacts:
