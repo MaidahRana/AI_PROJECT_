@@ -142,7 +142,7 @@ Feature selection is pivotal in enhancing the predictive accuracy and interpreta
 - **Description**: A simpler model with fewer, but more influential variables is easier to understand and explain, which is crucial for stakeholders looking to make informed decisions based on the model's outputs.
 
 
-### Conclusion
+#### Conclusion
 The feature selection process based on correlation analysis effectively identified the most relevant features for predicting house prices. This focused approach not only enhances the accuracy of the predictive model but also provides clear insights into what property characteristics are most valuable in the real estate market. As a result, this analysis supports the development of a data-driven, efficient model capable of making accurate predictions and offering meaningful insights into the dynamics of house pricing.
 
 # 4. House Price Prediction Using Simple Linear Regression
