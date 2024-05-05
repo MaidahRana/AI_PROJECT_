@@ -158,6 +158,30 @@ A scatter plot of the actual vs. predicted house prices shows a strong correlati
 
 ![Multiple Linear Regression](Multiple_Regression.png)
 
+### Visualization of Feature Relationships in Multiple Regression Analysis
+
+In the comprehensive analysis of the multiple linear regression model developed for predicting house prices, visual representations provide invaluable insights into how individual features correlate with house prices. The following description details the approach and findings from the visualization of these relationships using scatter plots with regression lines.
+
+#### Methodology
+
+A series of regression plots were generated to visually examine the relationship between each selected feature and house prices. The plots were created using the seaborn library, a powerful visualization tool in Python. Each feature from the `selected_features` list, which includes variables deemed important through feature selection processes, was plotted against the house prices from the test set.
+
+#### Plot Configuration
+
+- **Setup**: A matplotlib figure was created with a subplot for each feature, arranged in a single row. The large figure size (50x5 inches) ensures that each plot is clearly visible without overlap.
+- **Visualization Tool**: `sns.regplot` was utilized for each feature, which plots a scatter plot overlaid with a regression line. This method not only shows the distribution of data points but also the trend line that best fits these points, providing a visual estimation of the linear relationship.
+- **Customization**:
+  - Scatter points were colored blue for better visibility against the typical white background.
+  - The regression line was colored red to distinctly contrast with the blue scatter points, emphasizing the trend.
+- **Axes Labels**: Each plot was labeled with the corresponding feature name on the x-axis and 'House Price' on the y-axis, clarifying what each plot represents.
+
+#### Analysis from Visualization
+
+- **Trend Identification**: The regression lines provide a clear indication of the trends within the data. Features that exhibit a strong positive or negative slope on the regression line suggest a significant linear relationship with house prices. For instance, a steep upward slope in a feature like 'Living Area' would indicate that larger homes tend to have higher prices.
+- **Outlier Detection**: Scatter plots allow for the observation of outliers or unusual data points that deviate significantly from the general trend. Identifying outliers is crucial as they can influence the regression line and affect model accuracy.
+- **Strength of Relationship**: The density and spread of data points around the regression line help in assessing the strength of the linear relationship. A tight clustering of points around the line suggests a strong relationship, whereas widely dispersed points indicate a weaker relationship.
+- **Comparative Analysis**: Viewing all features simultaneously allows for quick comparisons across different variables, helping to identify which features have the most and least impact on house prices based on the steepness of the regression lines and the scatter of the data points.
+
 ### Impact of Adding More Features
 Incorporating multiple features into the regression model has several impacts:
 - **Improved Accuracy**: As evidenced by the lower MSE and higher R-squared score, using multiple features generally improves the model's predictive accuracy because it can capture more complexities and variabilities in the data.
