@@ -84,6 +84,8 @@ The analysis yielded the following key findings, with features listed by their s
 Based on the correlation results, features were selected or discarded as follows:
 
 - **Selected Features**: Features with a correlation coefficient greater than 0.4 were chosen for the predictive model. These include 'Overall Qual', 'Gr Liv Area', 'Exter Qual', 'Bsmt Qual', 'Kitchen Qual', '1st Flr SF', 'Year Built', 'Garage Finish', and others up to 'Heating QC'. These features are expected to provide the most predictive power due to their strong relationships with the sale price.
+  
+![Selected Features](selectedfeatures.png)
 
 - **Discarded Features**: Features with weaker correlations (less than 0.4) such as 'Wood Deck SF', 'Half Bath', and others below 'Heating QC' in the correlation ranking were omitted from the model. This decision was made to streamline the model and focus on the most impactful variables. This reduces complexity and potential overfitting, enhancing model interpretability without sacrificing predictive accuracy.
 
